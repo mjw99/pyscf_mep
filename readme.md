@@ -1,6 +1,6 @@
 Introduction
 ============
-An example of how to calculate a MEP using PySCF.
+An example of how to calculate a MEP using PySCF, using Ubuntu and Conda.
 
 QuickStart
 ==========
@@ -34,17 +34,19 @@ conda install -y -c conda-forge ipykernel
 # Create notebook which will use the deps in the conda environment
 python -m ipykernel install --user --name pyscf_mep --display-name "Python (pyscf_mep)"
 ```
-3) Start the notebook
+3) Start and execute the notebook
 ```
 jupyter-notebook water_MEP.ipynb
 ```
 
 
+Extra
+==========
+
 4) View with VMD
 ```
 vmd -e water.vmd
 ```
-
 
 5) View with JMOL
 ```
