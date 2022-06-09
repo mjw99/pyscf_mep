@@ -28,7 +28,7 @@ pip install pyberny==0.6.3
 conda install -y -c conda-forge nglview
 
 # SMILES to 3D
-conda install -y -c openbabel
+conda install -y -c conda-forge openbabel
 	
 # jupyter-notebook related
 conda install -y -c conda-forge jupyter
