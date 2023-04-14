@@ -1,6 +1,6 @@
 Introduction
 ============
-An example of how to calculate a MEP using PySCF, using Ubuntu and Mamba.
+An example of how to calculate a MEP using [PySCF](https://arxiv.org/abs/2002.12531), using Ubuntu and [Mamba](https://mamba.readthedocs.io/en/latest/installation.html).
 
 QuickStart
 ==========
