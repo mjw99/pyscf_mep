@@ -1,6 +1,6 @@
 Introduction
 ============
-An example of how to calculate a MEP using [PySCF](https://arxiv.org/abs/2002.12531), using Ubuntu and [Mamba](https://mamba.readthedocs.io/en/latest/installation.html).
+An example of how to calculate a [MEP](https://www.cup.uni-muenchen.de/ch/compchem/pop/mep1.html) using [PySCF](https://arxiv.org/abs/2002.12531), using Ubuntu and [Mamba](https://mamba.readthedocs.io/en/latest/installation.html).
 
 QuickStart
 ==========
