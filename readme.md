@@ -57,6 +57,6 @@ vmd -e water.vmd
 5) View with JMOL
 ```
 jmol water_den.cube
-<from internal console>
+<type into internal console: File --> Console>
 isosurface "water_den.cube" map "water_pot.cube"
 ```
