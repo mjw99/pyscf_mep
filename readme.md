@@ -1,38 +1,38 @@
 Introduction
 ============
-An example of how to calculate a MEP using PySCF, using Ubuntu and Conda.
+An example of how to calculate a MEP using PySCF, using Ubuntu and Mamba.
 
 QuickStart
 ==========
-1) Clone the repo. Do this outside of conda since it interferes with git.
+1) Clone the repo. Do this outside of mamba since it interferes with git.
 
 ```
 git clone https://github.com/mjw99/pyscf_mep.git
 cd pyscf_mep
 ```	
 
-2) Create a conda environment and install needed packages (you only need to do this once)
+2) Create a mamba environment and install needed packages (you only need to do this once)
 ```
 
 # Create and activate environment
-conda create -y --name pyscf_mep python=3.8
-source activate pyscf_mep
+mamba create -y --name pyscf_mep python=3.8
+mamba activate pyscf_mep
 
 # PySCF: QM package
-conda install -y -c conda-forge pyscf==2.0.1
+mamba install -y -c conda-forge pyscf==2.0.1
 
 # Optimiser
 pip install pyberny==0.6.3
 
 # Visualization
-conda install -y -c conda-forge nglview
+mamba install -y -c conda-forge nglview
 
 # SMILES to 3D
-conda install -y -c conda-forge openbabel
+mamba install -y -c conda-forge openbabel
 	
 # jupyter-notebook related
-conda install -y -c conda-forge jupyter
-conda install -y -c conda-forge ipykernel
+mamba install -y -c conda-forge jupyter
+mamba install -y -c conda-forge ipykernel
 	
 # Create notebook which will use the deps in the conda environment
 python -m ipykernel install --user --name pyscf_mep --display-name "Python (pyscf_mep)"
