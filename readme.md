@@ -1,6 +1,6 @@
 Introduction
 ============
-An example of how to calculate a MEP using PySCF, using Ubuntu and Mamba.
+An example of how to calculate a [MEP](https://www.cup.uni-muenchen.de/ch/compchem/pop/mep1.html) using [PySCF](https://arxiv.org/abs/2002.12531), using Ubuntu and [Mamba](https://mamba.readthedocs.io/en/latest/installation.html).
 
 QuickStart
 ==========
@@ -57,6 +57,6 @@ vmd -e water.vmd
 5) View with JMOL
 ```
 jmol water_den.cube
-<from internal console>
+<type into internal console: File --> Console>
 isosurface "water_den.cube" map "water_pot.cube"
 ```
