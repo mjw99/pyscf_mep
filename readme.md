@@ -34,8 +34,7 @@ mamba install -y -c conda-forge openbabel
 mamba install -y -c conda-forge jupyter
 mamba install -y -c conda-forge ipykernel
 
-# https://github.com/nglviewer/nglview/issues/1032#issue-1343627010
-mamba install "ipywidgets=7" -c conda-forge
+mamba install ipywidgets -c conda-forge
 	
 # Create notebook which will use the deps in the conda environment
 python -m ipykernel install --user --name pyscf_mep --display-name "Python (pyscf_mep)"
