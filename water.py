@@ -9,11 +9,11 @@ from pyscf.tools import cubegen
 
 from utils import *
 
-mol = SMILES_to_Mole("CCCCO")
+mol = SMILES_to_Mole("O")
 
 # https://pyscf.org/user/gto.html
 mol.basis="6-31G*"
-mol.verbose = 0
+mol.verbose = 5 
 mol.build()
 
 # https://pyscf.org/user/dft.html
