@@ -24,12 +24,12 @@ mamba install -y -c conda-forge pyscf==2.6.0
 # Optimiser
 pip install pyberny==0.6.3
 
+# SMILES to 3D
+mamba install -y -c conda-forge openbabel
+
 # Visualization
 mamba install -y -c conda-forge nglview
 
-# SMILES to 3D
-mamba install -y -c conda-forge openbabel
-	
 # jupyter-notebook related
 mamba install -y -c conda-forge jupyter
 mamba install -y -c conda-forge ipykernel
