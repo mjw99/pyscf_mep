@@ -15,7 +15,7 @@ cd pyscf_mep
 ```
 
 # Create and activate environment
-mamba create -y --name pyscf_mep python=3.8
+mamba create -y --name pyscf_mep python=3.12
 mamba activate pyscf_mep
 
 # PySCF: QM package
