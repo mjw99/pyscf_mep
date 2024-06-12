@@ -59,3 +59,8 @@ jmol water_den.cube
 <type into internal console: File --> Console>
 isosurface "water_den.cube" map "water_pot.cube"
 ```
+
+6) View with PyMol
+```
+pymol water.pml
+```
