@@ -24,6 +24,9 @@ method.scf()
 # https://pyscf.org/user/geomopt.html
 opt_mol = berny_solver.optimize(method)
 
+# Write out optimised structure
+opt_mol.tofile("water.xyz", format="xyz")
+
 _ = cubegen.density(opt_mol, 'water_den.cube', method.make_rdm1(), resolution=(1/6))
 _ = cubegen.mep(opt_mol, 'water_pot.cube', method.make_rdm1(), resolution=(1/6))
 
