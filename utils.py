@@ -22,6 +22,8 @@ def SMILES_to_Mole(SMILES):
     ff.ConjugateGradients(steps, 1.0e-6)
 
     ff.GetCoordinates(mol.OBMol)
+    #debug
+    mol.write("mol2", "out.mol2", overwrite=True)
 
     # Extract out just atom coordinates to pass over to PySCF
     finalAtoms = []
