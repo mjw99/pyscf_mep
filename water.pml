@@ -1,5 +1,5 @@
 load water.xyz
-show sticks, water
+as lines
 
 load water_den.cube, dens_map
 load water_pot.cube, pot_map
