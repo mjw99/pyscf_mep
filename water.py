@@ -4,7 +4,7 @@ from pyscf import __config__
 setattr(__config__, 'cubegen_box_margin', 4.0)
 
 from pyscf import dft
-from pyscf.geomopt import berny_solver
+from pyscf.geomopt.geometric_solver import optimize
 from pyscf.tools import cubegen
 
 from utils import *
@@ -22,7 +22,7 @@ method.xc = 'b3lypg'
 method.scf()
 
 # https://pyscf.org/user/geomopt.html
-opt_mol = berny_solver.optimize(method)
+opt_mol = optimize(method)
 
 # Write out optimised structure
 opt_mol.tofile("water.xyz", format="xyz")

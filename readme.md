@@ -19,10 +19,10 @@ mamba create -y --name pyscf_mep python=3.12
 mamba activate pyscf_mep
 
 # PySCF: QM package
-mamba install -y -c conda-forge pyscf==2.6.0
+mamba install -y -c conda-forge pyscf==2.6.2
 
 # Optimiser
-pip install pyberny==0.6.3
+mamba install -y -c conda-forge geometric=1.0.2
 
 # SMILES to 3D
 mamba install -y -c conda-forge openbabel
