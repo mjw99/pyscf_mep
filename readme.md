@@ -19,7 +19,7 @@ mamba create -y --name pyscf_mep python=3.12
 mamba activate pyscf_mep
 
 # PySCF: QM package
-mamba install -y -c conda-forge pyscf==2.6.2
+mamba install -y -c conda-forge pyscf==2.7.0
 
 # Optimiser
 mamba install -y -c conda-forge geometric=1.0.2
