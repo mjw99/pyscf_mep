@@ -22,7 +22,7 @@ mamba activate pyscf_mep
 mamba install -y -c conda-forge pyscf==2.7.0
 
 # Optimiser
-mamba install -y -c conda-forge geometric=1.0.2
+mamba install -y -c conda-forge geometric=1.1
 
 # SMILES to 3D
 mamba install -y -c conda-forge openbabel
